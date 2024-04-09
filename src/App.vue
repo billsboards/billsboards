@@ -19,7 +19,7 @@
         <label class="block font-bold mb-2">Embed Code:</label>
         <div class="bg-gray-700 text-white p-4 rounded-xl whitespace-pre-wrap flex justify-between items-center">
           <p>{{ embedCode }}</p>
-          <button @click="copyToClipboard" class="bg-blue-500 hover:bg-blue-700 text-white text-xl font-bold py-2 px-4 rounded-xl"><i class="fas fa-copy"></i></button>
+          <button @click="copyToClipboard" aria-label="Copy to Clipboard" class="bg-blue-500 hover:bg-blue-700 text-white text-xl font-bold py-2 px-4 rounded-xl"><i class="fas fa-copy"></i></button>
         </div>
       </div>
       <div id="FAQ">
