@@ -43,7 +43,7 @@
 <script>
   export default {
     name: "App",
-    mounted() {
+    beforeCreate() {
       if (window.location.pathname !== "/") {
         window.location.href = "/";
       }
