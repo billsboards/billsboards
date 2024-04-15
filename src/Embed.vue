@@ -1,10 +1,8 @@
 <template>
-  <div>
-    <p>Ref: {{ ref }}</p>
-    <img :src="imageUrl" alt="Random Image" />
+  <div class="absolute inset-0">
+    <img class="w-full h-full object-cover" :src="imageUrl" alt="Random Image" />
   </div>
 </template>
-
 <script>
 import { ref, onMounted } from 'vue'
 
