@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute inset-0">
+  <div class="absolute inset-0 p-0 m-0">
     <img class="w-full h-full object-cover" :src="imageUrl" alt="Random Image" />
   </div>
 </template>
