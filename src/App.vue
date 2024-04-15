@@ -43,6 +43,11 @@
 <script>
   export default {
     name: "App",
+    mounted() {
+      if (window.location.pathname !== "/") {
+        window.location.href = "/";
+      }
+    },
     data() {
       return {
         domain: "example.com",
