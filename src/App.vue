@@ -37,7 +37,7 @@
         </div>
       </div>
     </main>
-    <footer>A <a class="text-blue-500" target="_blank" href="https://3kh0.net/">Echo</a> production, hosted by CloudFlare</footer>
+    <footer>A <a class="text-blue-400 underline" target="_blank" href="https://3kh0.net/">Echo</a> production, hosted by CloudFlare</footer>
   </div>
 </template>
 <script>
