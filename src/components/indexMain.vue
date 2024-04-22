@@ -1,6 +1,6 @@
 <template>
   <div class="p-4">
-    <iframe src="/embed?ref=billsboards.net" style="margin-left: auto; display: block; margin-right: auto; max-width: 732px; width: 100%; height: 94px; border: none;"></iframe>
+    <iframe src="/embed?ref=billsboards.net" style="margin-left: auto; display: block; margin-right: auto; max-width: 728px; width: 100%; height: 90px; border: none;"></iframe>
     <header class="mb-4">
       <h1 class="text-5xl font-bold text-gray-100">BillsBoards</h1>
     </header>
@@ -23,7 +23,7 @@
       </div>
       <IndexFAQ />
     </main>
-    <iframe src="/embed?ref=billsboards.net" style="margin-left: auto; display: block; margin-right: auto; max-width: 732px; width: 100%; height: 94px; border: none;"></iframe>
+    <iframe src="/embed?ref=billsboards.net" style="margin-left: auto; display: block; margin-right: auto; max-width: 728px; width: 100%; height: 90px; border: none;"></iframe>
     <footer>A <a class="text-blue-400 underline" target="_blank" href="https://3kh0.net/">Echo</a> production, hosted by CloudFlare</footer>
   </div>
 </template>
@@ -38,12 +38,12 @@
     data() {
       return {
         domain: "example.com",
-        embedCode: `<iframe src="https://billsboards.net/embed?ref=example.com" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;"></iframe>`,
+        embedCode: `<iframe src="https://billsboards.net/embed?ref=example.com" style="margin-left:auto;display:block;margin-right:auto;max-width:728px;width:100%;height:90px;border:none;"></iframe>`,
       };
     },
     methods: {
       generateEmbedCode() {
-        this.embedCode = `<iframe src="https://billsboards.net/embed?ref=${this.domain}" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;"></iframe>`;
+        this.embedCode = `<iframe src="https://billsboards.net/embed?ref=${this.domain}" style="margin-left:auto;display:block;margin-right:auto;max-width:728px;width:100%;height:90px;border:none;"></iframe>`;
       },
       copyToClipboard() {
         const copy = document.getElementById("copyButton");
