@@ -1,10 +1,10 @@
 <template>
-  <div class="relative">
+  <div class="relative m-0 p-0">
     <a :href="state.adUrl" target="_blank" class="w-[728px] h-[90px]">
       <img class="w-[728px] h-[90px] object-cover" :src="state.imageUrl" title="BillsBoard" alt="BillsBoard" />
     </a>
     <div class="absolute top-0 right-0 p-1">
-      <a href="https://billsboards.net" target="_blank" title="Learn about BillsBoards" aria-label="BillsBoard link" class="text-white text-xs font-bold bg-gray-700 py-1 px-2 rounded-lg">BB</a>
+      <a href="https://billsboards.net" target="_blank" title="Learn about BillsBoards" aria-label="BillsBoard link" class="text-white text-xs font-bold bg-gray-700 py-1 px-2 m-0 rounded-lg">BB</a>
     </div>
   </div>
 </template>
