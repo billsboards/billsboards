@@ -1,6 +1,6 @@
 <template>
   <div class="p-4">
-    <iframe src="/embed?ref=billsboards.net" style="margin-left: auto; display: block; margin-right: auto; max-width: 728px; width: 100%; height: 90px; border: none;"></iframe>
+    <iframe src="https://billsboards.net/embed?ref=billsboards.net" style="margin-left: auto; display: block; margin-right: auto; max-width: 728px; width: 100%; height: 90px; border: none;"></iframe>
     <header class="mb-4">
       <h1 class="text-5xl font-bold text-gray-100">BillsBoards</h1>
     </header>
@@ -23,7 +23,7 @@
       </div>
       <IndexFAQ />
     </main>
-    <iframe src="/embed?ref=billsboards.net" style="margin-left: auto; display: block; margin-right: auto; max-width: 728px; width: 100%; height: 90px; border: none;"></iframe>
+    <iframe src="https://billsboards.net/embed?ref=billsboards.net" style="margin-left: auto; display: block; margin-right: auto; max-width: 728px; width: 100%; height: 90px; border: none;"></iframe>
     <footer>A <a class="text-blue-400 underline" target="_blank" href="https://3kh0.net/">Echo</a> production, hosted by CloudFlare</footer>
   </div>
 </template>
