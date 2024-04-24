@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "gentop": "node scripts/siteTop.js"
   },
   "dependencies": {
     "firebase": "^10.11.0",

@@ -1,20 +1,21 @@
 <template>
-  <div class="p-4">
+  <div class="p-4 max-w-4xl mx-auto">
     <iframe src="https://billsboards.net/embed?ref=billsboards.net" style="margin-left: auto; display: block; margin-right: auto; max-width: 728px; width: 100%; height: 90px; border: none;"></iframe>
     <header class="mb-4">
-      <h1 class="text-5xl font-bold text-gray-100">BillsBoards</h1>
+      <h1 class="text-5xl font-bold text-gray-100 py-2">BillsBoards</h1>
     </header>
     <main>
       <p class="mb-4 text-xl"><strong>BillsBoards</strong> <em>noun</em> - A image that should be viewed or placed on every website.</p>
       <p class="mb-4">
         It is recommended that all people who are not silly should avoid this website. People who are silly should view billsboards and place their own billsboards on sites they control. Failure to do so may result in a lack of silliness.
       </p>
-      <h2 class="text-xl font-bold mb-2">Add BillsBoards to your site:</h2>
+      <siteTop />
+      <h2 class="text-xl font-bold my-2">Add BillsBoards to your site:</h2>
       <div class="mb-4">
         <label for="domain" class="block font-bold mb-2">Enter your domain:</label>
         <input type="text" id="domain" v-model="domain" class="border border-gray-400 rounded-xl px-3 py-2 w-50% bg-gray-700 text-white" placeholder="example.com" />
       </div>
-      <div v-if="embedCode" class="mb-4">
+      <div v-if="embedCode" class="mb-2">
         <label class="block font-bold mb-2">Embed Code:</label>
         <div class="bg-gray-700 text-white p-4 rounded-xl whitespace-pre-wrap flex justify-between items-center">
           <p>{{ embedCode }}</p>
@@ -29,11 +30,13 @@
 </template>
 <script>
   import IndexFAQ from "./indexFAQ.vue";
+  import siteTop from "./siteTop.vue";
 
   export default {
     name: "App",
     components: {
       IndexFAQ,
+      siteTop,
     },
     data() {
       return {
