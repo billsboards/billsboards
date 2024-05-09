@@ -21,10 +21,11 @@ export default {
   data() {
     return {
       sites: [
-        { name: "billsboards.net", count: 54 },
+        { name: "billsboards.net", count: 146 },
         { name: "3kh0.net", count: 33 },
-        { name: "example.com", count: 3 },
-        { name: "google.com", count: 1 },
+        { name: "project-neutron.site", count: 9 },
+        { name: "google.com", count: 4 },
+        { name: "example.com", count: 0 },
       ],
     };
   },
